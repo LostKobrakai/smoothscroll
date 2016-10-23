@@ -44,11 +44,11 @@
   }());
   </script>
 
-  <!-- smooth scroll behavior polyfill -->
-  <script src="src/smoothscroll.js"></script>
-
   <!-- site styles -->
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       background-color: #fefefe;
       color: #212121;
@@ -164,6 +164,9 @@
       color: inherit;
     }
   </style>
+
+  <!-- smooth scroll behavior polyfill -->
+  <script src="src/smoothscroll.js"></script>
 </head>
 <body>
   <header>
